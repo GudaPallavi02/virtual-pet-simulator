@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>virtual pet simulator
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> virtual pet-simulator🐾</h1>
+        <div class="pet-container">
+            <img id="pet-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO_iZLkcLZ8m8kWH9gH1IjO53gqhOqV4TGE9q7ZnESj5Eb2O6bbf1RtrW5P2GB8gttTU8&usqp=CAU" alt="Virtual pet">
+
+        </div>
+        <div class="status">
+            <div class="attribute">
+               <div class="emotions"></div>Hunger:<div class="bar" id="hunger-bar">
+                    <div class="fill"></div>
+                </div>
+            </div>
+
+            <div class= "attribute">
+                Happiness: <div class="bar" id="happiness-bar">
+                <div class="fill"></div>
+            </div>
+            </div>
+
+            <div class="attribute">
+                Energy: <div class="bar" id="energy-bar">
+                    <div class="fill"></div>
+                </div>
+            </div>
+            <div class="controls">
+                <button onclick="feedPet()">🍖 Feed </button>
+                <button onclick="playWithPet()">🥎 play</button>
+                <button onclick="putToSleep()">😴 sleep</button>
+            </div>
+            </div>
+         <script src="script.js"></script>
+
